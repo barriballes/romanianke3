@@ -1,0 +1,68 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body {
+   background-image: url(../images/bg1.jpg);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: top;
+}
+
+.orderBtn {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #ff5100;
+  padding: 5px 0px 5px 0px;
+  font-size: 30px!important;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.card-signin {
+	margin-top: 100px;
+	padding-left: 0;
+	padding-right: 0;
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-title {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.card-img-left {
+  height: 200px;
+  /* Link to your background image using in the property below! */
+  background: scroll center url('../images/desfa.gif');
+  background-size: cover;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.img-icon {
+	width: 28px;
+	height: 28px;
+	color: #fff;
+	margin-right: 10px;	
+}
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+  font-size: 30px;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
